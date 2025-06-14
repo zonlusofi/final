@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFFDE7;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.scrapbook {
+  position: relative;
+  width: 90vw;
+  max-width: 800px;
+  height: 90vh;
+  max-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.letter {
+  position: relative;
+  background-color: #FFFCEA;
+  width: 320px;
+  height: 480px;
+  padding: 30px;
+  z-index: 2;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: none;
+}
+
+.letter h1 {
+  margin: 0;
+  color: #FBC02D;
+}
+
+.letter p {
+  color: #333;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+/* Polaroid photo style */
+.photo {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-color: white;
+  border: 6px solid #FFEB3B;
+  padding: 4px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Scattered scrapbook photo positions */
+.one {
+  top: 20px;
+  left: 30px;
+  transform: rotate(-12deg);
+}
+
+.two {
+  top: 50px;
+  right: 20px;
+  transform: rotate(10deg);
+}
+
+.three {
+  bottom: 40px;
+  left: 50px;
+  transform: rotate(6deg);
+}
+
+.four {
+  bottom: 30px;
+  right: 40px;
+  transform: rotate(-9deg);
+}
+
+.five {.five {
+    top: 40%;
+    left: -60px;
+    transform: rotate(-5deg);
+}
+       
+.six {
+    top: 40%;
+    right: -60px;
+    transform: rotate(5deg);
+}
