@@ -89,15 +89,3 @@ body {
   right: 40px;
   transform: rotate(-9deg);
 }
-
-.five {.five {
-    top: 40%;
-    left: -60px;
-    transform: rotate(-5deg);
-}
-       
-.six {
-    top: 40%;
-    right: -60px;
-    transform: rotate(5deg);
-}
